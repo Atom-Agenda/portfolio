@@ -580,7 +580,13 @@ footer {
         margin-bottom: 50px;
     }
 }
-
+.education-img {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid $border;
+    float: left;
+}
 .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
