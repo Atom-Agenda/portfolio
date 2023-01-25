@@ -28,7 +28,7 @@
 */
 
 // Define base and accent colors
-$base-color: #c76a0d;
+$base-color: #f06301;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -344,7 +344,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg1.jpeg);
+    background: url(../images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -372,7 +372,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: #f2f2f5;
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -724,7 +724,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
+    background: #a20202;
     text-align: center;
 
     h2 {
@@ -745,7 +745,7 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: darken($base-color, 15%);
+        background: darken(#a20202, 15%);
         color: #fff;
         @include transition();
         @include placeholder {
@@ -776,7 +776,7 @@ footer {
         @include transition();
 
         &:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 10px 20px rgba(125, 104, 104, 0.19), 0 6px 6px rgba(0,0,0,0.23);
         }
     }
 }
